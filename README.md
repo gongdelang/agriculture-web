@@ -1,5 +1,5 @@
 # agriculture-web
-apache+php+mysql
+使用wampsever开发的新建农业网站
 
 ## 运行
 
