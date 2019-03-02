@@ -1,12 +1,12 @@
 # agriculture-web
-apache+php+mysql
+使用wampsever开发的新建农业网站
 
 ## 运行
 
 克隆
 
 ```
-git clone git@github.com:gongdelang/agriculture-web.git
+git clone https://github.com/gongdelang/agriculture-web.git
 ```
 
 安装
