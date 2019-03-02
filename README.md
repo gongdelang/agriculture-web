@@ -6,12 +6,14 @@ apache+php+mysql
 克隆
 
 ```
-git clone https://github.com/dj940212/hongbao-bot2.git
+git clone git@github.com:gongdelang/agriculture-web.git
 ```
 
 安装
 
 -安装wampsever
+-将myweb放入wampserver路径下的www文件夹下
+-修改myweb下config.php数据库相关配置
 
 
 执行
