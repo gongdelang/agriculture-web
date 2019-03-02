@@ -6,7 +6,7 @@
 克隆
 
 ```
-git clone git@github.com:gongdelang/agriculture-web.git
+git clone https://github.com/gongdelang/agriculture-web.git
 ```
 
 安装
