@@ -19,4 +19,4 @@ git clone git@github.com:gongdelang/agriculture-web.git
 执行
 
 - 开启wampsever
-- 浏览器打开http://localhost/myweb/install.php
+- 浏览器打开http://localhost/myweb/install/install.php
