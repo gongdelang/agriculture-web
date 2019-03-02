@@ -1,0 +1,97 @@
+/* CSS Document */
+body{
+	/*border:1px solid #FF0004;*/
+	width: 950px;
+	height: 480px;
+	margin: 0 0 0 0;
+	background: #FFFFFF;
+}
+
+
+
+/*---------------------------------------------*/
+/*ul显示数据star*/
+#content  ul{
+	/*border:1px solid red;*/
+	width:950px;
+	height: 385px;
+	font-size:14px;
+}
+#content   ul li{
+	/*border:1px solid #000000;*/
+	float: left;
+	margin-top:20px;
+	margin-left:11px;
+	
+}
+#content   ul a{
+	/*border:1px solid #000000;*/
+	display: block;
+}
+#content   ul img{
+	width: 223px;
+	height: 140px;
+}
+/*ul显示数据end*/
+
+
+/*---------------------------------------------*/
+/*banner条*/
+#content .banner{ 
+	/*border:1px solid #FF0004;*/
+	font-size:16px;
+	margin-top:10px;
+	margin-left:160px;
+}
+#content .banner a{
+	border:1px solid #dddddd;
+	border-radius:3px 3px;
+	padding:7px 12px 7px 12px;
+	margin:2px;
+	text-decoration: none;
+}
+#content .banner a:hover{
+	border:1px solid #00a1d6;
+	background:#00a1d6;
+ 	color:#ffffff;
+	
+}
+#content .banner .current{ 
+	border:1px solid #00a1d6;
+	border-radius:3px 3px;
+	padding:7px 12px 7px 12px;
+	margin:2px;
+	background:#00a1d6;
+ 	color:#ffffff;
+	font-weight: bold;
+}
+#content .banner .disable{
+	border:1px solid #dddddd;
+	border-radius:3px 3px;
+	padding:7px 12px 7px 12px;
+	margin:2px;
+	color:#dddddd;
+}
+#content .banner form{
+    /*border:1px solid #000000;*/
+	margin-top:20px;
+	margin-left:420px;
+	color:#99a2aa;
+}
+#content .banner form .in1{
+    border:1px solid #99a2aa;
+	width:49px;
+	height:24px;
+	border-radius: 3px;
+}
+#content .banner form .in2{
+    border:1px solid #00a1d6;
+	width:40px;
+	height:24px;
+	border-radius: 3px;
+	margin-left:5px;
+	color:#ffffff;
+	background:#00a1d6;
+	cursor:pointer;
+}
+/*banner条end*/

@@ -1,0 +1,126 @@
+/* CSS Document */
+/*----------------------------------------*/
+/*整个页面控制器*/
+
+
+/*----------------------------------------*/
+/*总内容div*/
+#all-content{
+	/*border: 1px solid red;*/
+	width:1004px;
+	overflow:auto;
+	margin:0px auto;
+	background: #ffffff;
+}
+/*----------------------------------------*/
+/*title star*/
+#content{
+	/*border:1px solid red;*/
+}
+#content .title{
+	border-bottom:2px solid #6dc17e;
+	width:1004px;
+	height:57px;
+}
+#content .title .nav{
+	/*border:1px solid #D70003;*/
+	margin-top:20px;
+	margin-left:30px;
+	color:#848484;
+	font-size: 16px;
+	float:left;
+		
+}
+#content .title .nav a{
+	/*border:1px solid #D70003;*/
+	text-decoration: none;
+	color:#848484;
+}
+#content .title .nav a:hover{
+	color:#6dc17e;
+}
+#content .title .background{
+	width: 109px;
+	height:57px;
+	background: url(../information/nei-nav.jpg) no-repeat;
+	float: left;
+}
+/*title end*/
+/*------------------视频star----------------------*/
+#content .p{
+	/*border:1px solid #FF0004;*/
+	margin-top:20px;
+	font-size:20px;
+	font-weight: bold;
+	text-align:center;
+}
+#content .video{
+	/*border:1px solid #FF0004;*/
+	width: 960px;
+	height: 550px;
+	margin: 5px auto;
+}
+#content .jieshao{
+	border:1px solid #aaaaaa;
+	border-top:2px solid #2ea760;
+	margin: 20px auto;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+#content .jieshao .jieshao_tit{
+	display: block;
+	color:#2ea760;
+	font-size:18px;
+	margin-top:8px;
+	margin-left:10px;
+}
+#content .jieshao p{
+	font-size:16px;
+	margin-top:8px;
+	margin-left:10px;
+	text-indent: 32px;
+	line-height: 30px;
+} 
+/*------------------视频end----------------------*/
+
+/*------------------猜你喜欢star----------------------*/
+#all-content #like{
+	/*border:1px solid #F40004;*/
+	margin-top:30px;
+}
+#all-content #like .p{
+	color:#4e8c75;
+	font-size:20px;
+	margin-left:20px;
+}
+#all-content #like .content{
+	/*border:1px solid #D01316;*/
+}
+
+/*----------------------------------------*/
+/*ul显示数据star*/
+#all-content #like  ul{
+	/*border:1px solid red;*/
+	width:950px;
+	height: 385px;
+	font-size:14px;
+}
+#all-content #like   ul li{
+	/*border:1px solid #000000;*/
+	float: left;
+	margin-top:20px;
+	margin-left:11px;
+	
+}
+#all-content #like   ul a{
+	/*border:1px solid #000000;*/
+	display: block;
+}
+#all-content #like   ul img{
+	width: 223px;
+	height: 140px;
+}
+/*ul显示数据end*/
+/*------------------猜你喜欢end----------------------*/

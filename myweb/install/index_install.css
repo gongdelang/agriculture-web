@@ -1,0 +1,45 @@
+/* CSS Document */
+*{
+	padding:0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px ;
+}
+.main{
+	/*border:1px solid red;*/
+	margin:auto auto;
+	margin-top:50px; 
+}
+.main form{
+	/*border:1px solid red;*/
+	font-size: 16px;
+}
+.main .input1{
+	/*border:1px solid red;*/
+	margin:10px auto;
+	width:280px;
+	
+}
+.main .input1 span{
+	display: block;
+	width: 50px;
+	height: 19px;
+	float: left;
+	color:#ffffff;
+	background: #6dc17e;
+	border-radius:2px;
+	text-align: center;
+}
+.main .input1 input{
+	width:170px;
+	margin-left:15px;
+	border-radius:1px;
+}
+.main .input2 input{
+	margin-left:65px;
+}
+.main .input3 input{
+	margin-left:15px;
+}
+
+
+
+

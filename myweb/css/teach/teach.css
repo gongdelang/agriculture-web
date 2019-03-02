@@ -1,0 +1,228 @@
+/* CSS Document */
+/*----------------------------------------*/
+/*总内容div*/
+#all-content{
+	/*border: 1px solid red;*/
+	width:1004px;
+	margin:0px auto;
+	background: #ffffff;
+	
+}
+
+
+
+/*--------------导航栏nav-star--------------------*/
+/*一级导航star*/
+#lanren {
+	/*border:1px solid #000000;*/
+	width: 1001px; 
+	height:40px; 
+	position: relative;
+	z-index:10;
+	padding-left: 1px;
+}
+#lanren .nav1{
+	width: 1004px;
+	/*border: 1px solid #FF0004;*/
+}
+#lanren .nav1 .li1{
+	border-right: 1px solid #ffffff;
+	float:left;
+	width:166.1px;
+	height: 40px;
+	line-height:40px;
+	text-align: center;
+	position: relative;
+	background: #4e8c75;
+	color: #ffffff;
+}
+#lanren .nav1 .li1:hover,#lanren .nav1 .active{
+	background:#594b48;
+	
+}
+
+/*二级导航star*/
+#lanren .nav1 .li1 .nav20{
+	position: absolute;
+	left:0px;
+	top: 40;
+	display:none;
+	width: 300px;
+	padding:0px 4px 4px 4px;
+	/*border: 1px solid red;*/
+}
+#lanren .nav1 .li1 .nav21{
+	position: absolute;
+	right:0px;
+	top: 40;
+	display:none;
+	width: 300px;
+	padding:0px 4px 4px 4px;
+	/*border: 1px solid red;*/
+}
+#lanren .nav1 .li1 .nav20 .li2,#lanren .nav1 .li1 .nav21 .li2{
+	text-decoration: none;
+	float:left;
+	width:100px;
+	text-align: center;
+	height:30px;
+	font-size:15px;
+	line-height:28px;
+	color:#ffffff;
+	border-radius:8px;
+	margin-top:4px; 
+}
+#lanren .nav1 .li1 .nav20 .li2:hover,#lanren .nav1 .li1 .nav21 .li2:hover{
+	background: #4e8c75;
+	
+}
+#lanren .nav1 .li1:hover .nav20,#lanren .nav1 .li1:hover .nav21{
+	display: block;
+	background: #594b48;
+}
+/*二级导航end*/
+/*--------------导航栏nav-end--------------------*/
+/*-------------正文内容star--------------------*/
+#content{
+	/*border: 1px solid #FF0004;*/
+	width: 1004px;
+	position: relative;
+}
+
+#hui_top{
+	width:60px;
+	height:50px;
+	background:url(../teach/hui_top.png);
+	position:absolute;
+	top:600px;
+	left:944px;
+}
+/*----------------------------------------*/
+/*左边的导航栏star*/
+.fl_l{
+	
+	float: left;
+	overflow:auto;
+	color:#666666;
+	position: relative;
+	z-index: 9;
+}
+.qwer{
+	/*border:1px solid #FF0004;*/
+	position: relative;
+}
+.fl_l .p1{
+	height: 36px;
+	width: 215px;
+	line-height: 36px;
+	font-size:18px;
+	/*border: 1px solid red;*/
+}
+.fl_l .p1_1{
+	margin-left:10px;
+	float: left
+}
+.fl_l .p2{
+	height: 30px;
+	width: 215px;
+	line-height: 30px;
+	font-size:15px;
+	cursor: pointer;
+	background:#DBDBDB;
+	/*border: 1px solid red;*/
+}
+.fl_l .p2_1{
+	margin-left:15px;
+	float: left;
+}
+.fl_l .span_nav_1{
+	height: 34px;
+	width:14px;
+	background:url(nav.png) no-repeat;
+	/*border: 1px solid red;*/
+	margin-left:5px;
+	float:left;
+	
+}
+.fl_l .span_nav_2{
+	height: 30px;
+	width:14px;
+	background:url(nav1.png) no-repeat;
+	/*border: 1px solid red;*/
+	margin-left:5px;
+	float:left;
+	
+}
+.fl_l .p2:hover{
+	background:#B5B5B5;
+}
+.fl_l li {
+	font-size:14px;
+	width:170px;
+	height:25px;
+	border-radius:8px;
+	padding-left:20px;
+	line-height: 25px;
+	cursor: pointer;
+}
+.fl_l li:hover {
+	background:#4e8c75;
+	color: #ffffff;
+}
+.fl_l li.active{
+	background: #4e8c75;
+	color: #fff;
+}
+/*左边的导航栏end*/
+
+/*右边的内容栏*/
+/*----------------------------------------*/
+#right-content{
+	float: right;
+	width:770px;
+	
+}
+.video{
+	width:740px;
+	height:420px;
+	margin:auto;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.fl_r{
+	float: right;
+	width:765px;
+}
+.fl_r li{
+	/*border: 1px solid #E40C10;*/
+	width:740px;
+	margin:5px auto;
+}
+.fl_r li .title_1{
+	line-height: 35px;
+	font-size:20px;
+	font-weight: bold;
+	/*border: 1px solid #0044FF;*/
+	
+} 
+.fl_r li .title_2{
+	line-height: 35px;
+	font-size:18px;
+	margin-left:10px;
+	/*border: 1px solid #0044FF;*/
+	
+} 
+.fl_r li .real_content{
+	line-height: 35px;
+	margin-left:20px;
+	font-size:16px;
+	text-indent: 32px; 
+	/*border: 1px solid #0044FF;*/
+	
+} 
+/*右边的内容栏end*/
+
+
+/*--------------正文内容end--------------------*/
+
+

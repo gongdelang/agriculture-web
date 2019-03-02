@@ -1,0 +1,219 @@
+/* CSS Document */
+body{
+	/*border:1px solid #FF0004;*/
+	width: 814px;
+	height:800px;
+	margin: 0 0 0 0;
+	background: #FFFFFF;
+}
+
+/*---------------------------------------------*/
+/*title_nav*/
+#content .title{
+	border-bottom:2px solid #6dc17e;
+	width:814px;
+	height:57px;
+}
+#content .title .nav{
+	/*border:1px solid #D70003;*/
+	margin-top:20px;
+	margin-left:30px;
+	color:#848484;
+	font-size: 16px;
+	float:left;
+		
+}
+#content .title .nav a{
+	color:#848484;
+}
+#content .title .nav a:hover{
+	color:#6dc17e;
+	text-decoration: none;
+}
+#content .title .background{
+	width: 109px;
+	height:57px;
+	background: url(../../information/nei-nav.jpg) no-repeat;
+	float: left;
+}
+
+
+
+
+/*---------------------------------------------*/
+/*ul显示数据star*/
+#content  ul{
+	/*border:1px solid red;*/
+	width:780px;
+	
+}
+#content   ul li{
+	/*border:1px solid #0034FF;*/
+	width:780px;
+	height:115px;
+	position:relative;
+	
+}
+#content ul li a{
+	/*border:1px solid #0034FF;*/
+	display: block;
+}
+#content ul li img{
+	/*border:1px solid #0034FF;*/
+	display: block;
+	width:150px;
+	height:90px;
+	margin-left:10px;
+	margin-top:15px;
+	float: left;
+}
+#content ul li .tit{
+	/*border:1px solid #0034FF;*/
+	display: block;
+	font-size: 18px;
+	font-weight:bold;
+	width:600px;
+	height:22px;
+	float:left;
+	margin-top:40px;
+	margin-left:15px;
+}
+#content ul li .cont{
+	/*border:1px solid #0034FF;*/
+	font-size: 16px;
+	color:#878787;
+	width:470px;
+	height:20px;
+	float:left;
+	margin-top:15px;
+	margin-left:15px;
+}
+#content ul li .time{
+	/*border:1px solid #0034FF;*/
+	font-size: 14px;
+	color:#878787;
+	width:180px;
+	height:20px;
+	position: absolute;
+	top:85px;
+	left:680px;
+	
+}
+#content ul li .xian{
+	/*border:1px solid #0034FF;*/
+	font-size: 18px;
+	color:#878787;
+	width:780px;
+	height:1px;
+	position: absolute;
+	line-height: 0px;
+	top:114px;
+	left:0px;
+}
+/*ul显示数据end*/
+/*-----------------------------------------------*/
+#content ul li #shanchu{
+	border-radius: 3px;
+	padding: 2px;
+	background:#2ea760;
+	color:#FFFFFF;
+	font-size: 16px;
+	position: absolute;
+	top:30px;
+	left:630px;
+	
+}
+#content ul li .xiugai{
+	border-radius: 3px;
+	padding: 2px;
+	background:#2ea760;
+	color:#FFFFFF;
+	font-size: 16px;
+	position: absolute;
+	top:30px;
+	left:670px;
+}
+#content ul li .shenghe1{
+	padding: 2px;
+	color:#2ea760;
+	font-size: 16px;
+	position: absolute;
+	top:30px;
+	left:720px;
+	
+}
+#content ul li .shenghe2{
+	padding: 2px;
+	color:red;
+	font-size: 16px;
+	position: absolute;
+	top:30px;
+	left:720px;
+	
+}
+/*-----------------------------------------------*/
+
+
+
+
+/*---------------------------------------------*/
+/*banner条*/
+#content .banner{ 
+	/*border:1px solid #FF0004;*/
+	font-size:16px;
+	margin-top:10px;
+	margin-left:160px;
+}
+#content .banner a{
+	border:1px solid #dddddd;
+	border-radius:3px 3px;
+	padding:7px 12px 7px 12px;
+	margin:2px;
+	text-decoration: none;
+}
+#content .banner a:hover{
+	border:1px solid #00a1d6;
+	background:#00a1d6;
+ 	color:#ffffff;
+	
+}
+#content .banner .current{ 
+	border:1px solid #00a1d6;
+	border-radius:3px 3px;
+	padding:7px 12px 7px 12px;
+	margin:2px;
+	background:#00a1d6;
+ 	color:#ffffff;
+	font-weight: bold;
+}
+#content .banner .disable{
+	border:1px solid #dddddd;
+	border-radius:3px 3px;
+	padding:7px 12px 7px 12px;
+	margin:2px;
+	color:#dddddd;
+}
+#content .banner form{
+    /*border:1px solid #000000;*/
+	margin-top:20px;
+	margin-left:350px;
+	color:#99a2aa;
+}
+#content .banner form .in1{
+    border:1px solid #99a2aa;
+	width:49px;
+	height:24px;
+	border-radius: 3px;
+}
+#content .banner form .in2{
+    border:1px solid #00a1d6;
+	width:40px;
+	height:24px;
+	border-radius: 3px;
+	margin-left:5px;
+	color:#ffffff;
+	background:#00a1d6;
+	cursor:pointer;
+}
+/*banner条end*//* CSS Document */
+

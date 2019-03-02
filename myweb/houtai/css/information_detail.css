@@ -1,0 +1,91 @@
+/* CSS Document */
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*内容star*/
+#content{
+	/*border:1px solid #FF0004;*/
+	width:1004px;
+	background: #ffffff;
+	margin:0px auto;
+	
+}
+/*title star*/
+#content .title{
+	border-bottom:2px solid #6dc17e;
+	width:1004px;
+	height:57px;
+}
+#content .title .nav{
+	/*border:1px solid #D70003;*/
+	margin-top:20px;
+	margin-left:30px;
+	color:#848484;
+	font-size: 16px;
+	float:left;
+		
+}
+#content .title .nav a{
+	/*border:1px solid #D70003;*/
+	text-decoration: none;
+	color:#848484;
+}
+#content .title .nav a:hover{
+	color:#6dc17e;
+}
+#content .title .background{
+	width: 109px;
+	height:57px;
+	background: url(../information/nei-nav.jpg) no-repeat;
+	float: left;
+}
+/*title end*/
+
+/*----------------------------------------*/
+/*con star*/
+#content .con{
+	/*border:1px solid #D71316;*/
+	width:1004px;
+}
+#content .con .tit{
+	/*border:1px solid #162AA4;*/
+    font-size: 20px;
+    color: #333;
+	font-weight: bold;
+    text-align: center;
+	padding-top: 30px;
+}
+#content .con .xijie{
+	/*border:1px solid #BC0BFF;*/
+    color: #777;
+    height: 24px;
+    text-align: center;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+#content .con .main p{
+	line-height: 30px;
+    font-size: 15px;
+    color: #222;
+	text-indent: 30px;
+	margin-top:8px;
+	padding-left:15px; 
+}
+#content .con .main .a{
+	/*border:1px solid  #FF0004;*/
+	width:1004px;
+	text-align: center;
+	margin-top:30px;
+	padding-bottom: 40px;
+}
+#content .con .main .a a{
+	text-decoration: none;
+	color: #222;
+}
+/*con end*/
+
+
+
+
+

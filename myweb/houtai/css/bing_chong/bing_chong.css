@@ -1,0 +1,89 @@
+/* CSS Document */
+
+/*----------------------------------------*/
+/*总内容div*/
+#all-content{
+	/*border: 1px solid red;*/
+	width:1004px;
+	overflow:auto;
+	margin:0px auto;
+	background: #ffffff;
+}
+
+
+
+/*----------------------------------------*/
+/*左边的导航栏star*/
+#left-nav{
+	width: 188px;
+	float:left;
+	position: relative;
+	z-index: 10;
+	margin-bottom: 0px;
+}
+
+#left-nav .p1{
+	/*border:1px solid #FF0004;*/
+	width:188px;
+	height:57px;
+	font-size: 22px;
+	color:#594b47;
+	line-height: 50px;
+	text-indent: 25px;
+}
+#left-nav .p2{
+	/*border:1px solid #FF0004;*/
+	width:198px;
+	height:65px;
+	font-size: 18px;
+	color:#ffffff;
+	line-height: 63px;
+	text-indent: 25px;
+	background: #4e8c75; 
+}
+#left-nav .p3{
+	/*border:1px solid #FF0004;*/
+	width:188px;
+	height:36px;
+	position: relative;
+		
+	
+}
+#left-nav .p3 a{
+	/*border:1px solid #FF0004;*/
+	display: block;
+	height:36px;
+	font-size: 16px;
+	text-indent: 50px;
+	line-height: 35px;
+	text-decoration: none;
+	color:#848484;
+	cursor: pointer;
+}
+#left-nav .p3 a span{
+	/*border:1px solid #FF0004;*/
+	width:19px;
+	height:15px;
+	font-size: 16px;
+	position: absolute;
+	left:110px;
+}
+/*表示点了这个小标题*/
+#left-nav .active a,#left-nav .p3 a:hover{
+	color:#4e8c75;
+	font-weight:bold;
+	background: #e0ebea;
+}
+/*左边的导航栏end*/
+
+/*右边的内容栏*/
+/*----------------------------------------*/
+#right-content{
+	border-left: 2px solid #b5b5b5;
+	width:800px;
+	height: 800px;
+	float: left;
+	margin-bottom: 5px;
+	
+}
+
